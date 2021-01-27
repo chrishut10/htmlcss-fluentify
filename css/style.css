@@ -1,0 +1,238 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+
+  font-family: 'Roboto', sans-serif, Arial, Verdana;
+}
+
+/* Header */
+
+#block{
+  background-image: url("../img/background-header.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 60%;
+  background-color: rgb(0, 8, 120);
+  width: 100%;
+  height: 600px;
+}
+
+/* Prima parte del Nav */
+
+nav{
+ margin: 0 10%;
+ width: 80%;
+ height: auto;
+}
+
+nav ul li{
+  vertical-align: middle;
+  margin-top: 15px;
+}
+#logo{
+  max-width: 150px;
+  max-height: 150px;
+}
+
+#navigazione li{
+  display: inline-block;
+}
+
+#navigazione li a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0 15px;
+
+}
+
+#navigazione li a:first-child{
+  margin-left: 0;
+}
+
+#navigazione li:nth-child(5){
+  margin-right: 100px;
+}
+
+#navigazione li:nth-child(2){
+  margin-left: 50px;
+}
+
+#login{
+  border: 1px solid white;
+  padding: 5px 30px;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0 15px;
+}
+
+#struttura{
+  border: 1px solid rgb(4, 189, 0);
+  background-color: rgb(4, 189, 0);
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0 15px;
+}
+/* Seconda parte del Nav */
+
+.inglese{
+  position: relative;
+  width: 55%;
+  height: 300px;
+
+}
+
+.inglese h1{
+  font-size: 60px;
+  position: absolute;
+  color: white;
+  bottom: 0%;
+}
+
+
+
+#pulsante{
+  font-size: 15px;
+  font-weight: bold;
+  display: block;
+  border: 2px solid rgb(4, 189, 0);
+  background-color: rgb(4, 189, 0);
+  border-radius: 5px;
+  margin: 30px 0;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  width: 15%;
+}
+/* Main */
+
+main .vantaggi, main .piano{
+  margin: 0 10%;
+  width: 80%;
+  height: auto;
+}
+
+/* Scuole */
+
+.scuola{
+  background-color: rgb(199, 199, 199);
+  width: 100%;
+  height: 150px;
+}
+.scuola p{
+  text-align: center;
+}
+
+.scuola p:first-child{
+  font-weight: bold;
+  padding: 50px 0 10px 0;
+  font-size: 25px;
+}
+
+.scuola p:last-child{
+  color: rgb(57, 57, 57);
+  font-size: 20px;
+}
+
+/* Vantaggi */
+
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content{
+  width: calc(100% / 3 - 50px);
+  float: left;
+  margin-top: 30px;
+
+}
+
+.center{
+  /* width: calc(100 / 3 - 100px); */
+  margin: 50px 50px 0px 50px;
+}
+
+div .size{
+  max-width: 300px;
+  max-height: 200px;
+  margin-left: 25%;
+
+}
+
+.text-first{
+  font-weight: bold;
+  font-size: 35px;
+  color: rgb(34, 233, 2);
+  text-align: center;
+  margin: 30px 0px 30px 0;
+
+}
+
+.text-second{
+  text-align: center;
+  color: rgb(57, 57, 57);
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.linea{
+  width: 15%;
+  margin: 30px auto;
+}
+
+.hr{
+  border-top: 2px solid rgb(157, 157, 157);
+}
+
+/* Piano */
+
+.content2{
+  width: calc(100% / 2);
+  float: left;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+#mountain-size{
+  max-width: 700px;
+  max-height: 550px;
+}
+
+.content2 p{
+  margin: 20px 180px 20px 70px;
+}
+
+#testo-primo{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#testo-secondo{
+font-size: 25px;
+color: rgb(57, 57, 57);
+}
+
+#link{
+  font-size: 18px;
+  margin-left: 70px;
+}
+/* Footer */
+
+#grey{
+  background-color: rgb(199, 199, 199);
+  width: 100%;
+  height: 150px;
+}

@@ -56,32 +56,37 @@ nav ul li{
 }
 
 #navigazione li:nth-child(5){
-  margin-right: 100px;
+  margin-right: 140px;
 }
 
 #navigazione li:nth-child(2){
-  margin-left: 50px;
+  margin-left: 10px;
 }
+
+#navigazione li button{
+  margin-right:0;
+}
+
 
 #login{
   border: 1px solid white;
-  padding: 5px 30px;
+  padding: 5px 5px;
   background-color: transparent;
   color: white;
   border-radius: 5px;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 12px;
   margin: 0 15px;
 }
 
 #struttura{
   border: 1px solid rgb(4, 189, 0);
   background-color: rgb(4, 189, 0);
-  padding: 5px 20px;
+  padding: 5px 5px;
   border-radius: 5px;
   color: white;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 12px;
   margin: 0 15px;
 }
 /* Seconda parte del Nav */
